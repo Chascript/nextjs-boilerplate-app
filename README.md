@@ -8,7 +8,7 @@ Get started with a Next.js project. This boilerplate comes pre-configured with e
 - React and React DOM (^18)
 - Storybook integration
 - TypeScript support with @typescript-eslint
-- Linting and code formatting using ESLint and Prettier
+- Linting and code formatting using ESLint
 - Husky for Git hooks
 - Tailwind CSS
 - Webpack 5 for bundling
