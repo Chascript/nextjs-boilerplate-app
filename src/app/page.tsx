@@ -1,10 +1,12 @@
-import React from 'react';
-import Greetings from '@/src/components/greetings';
+import Link from 'next/link';
+import Greetings from '../components/greetings';
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
-      <Greetings firstName="World" />
+      <h1>Home</h1>
+      <Link href="/about">About</Link>
+      <Greetings firstName="world" />
     </div>
   );
 }
