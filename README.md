@@ -12,6 +12,7 @@ Get started with a Next.js project. This boilerplate comes pre-configured with e
 - Husky for Git hooks
 - Tailwind CSS
 - Webpack 5 for bundling
+- End to end testing with playwright
 
 **Getting Started:**
 
@@ -20,5 +21,5 @@ Get started with a Next.js project. This boilerplate comes pre-configured with e
 3. Start crafting your Next.js masterpiece!
 
 Todo:
-- testing
+- testing (unit and integration)
 - deployment
