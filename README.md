@@ -23,3 +23,4 @@ Get started with a Next.js project. This boilerplate comes pre-configured with e
 
 Todo:
 - testing (unit and integration)
+- database
