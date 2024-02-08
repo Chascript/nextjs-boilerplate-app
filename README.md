@@ -13,6 +13,7 @@ Get started with a Next.js project. This boilerplate comes pre-configured with e
 - Tailwind CSS
 - Webpack 5 for bundling
 - End to end testing with playwright
+- Connect repo to Vercel for quick deployment
 
 **Getting Started:**
 
@@ -22,4 +23,3 @@ Get started with a Next.js project. This boilerplate comes pre-configured with e
 
 Todo:
 - testing (unit and integration)
-- deployment
