@@ -1,5 +1,5 @@
 {
-  "name": "ohmydawg",
+  "name": "next-boilerplate-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,13 +20,12 @@
   "dependencies": {
     "@vercel/postgres": "^0.7.2",
     "dotenv": "^16.4.1",
-    "next": "14.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@playwright/test": "^1.41.2",
     "@storybook/addon-essentials": "^7.6.12",
     "@storybook/addon-interactions": "^7.6.12",
     "@storybook/addon-links": "^7.6.12",
