@@ -2,9 +2,10 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import Greetings from '../components/greetings';
+import Text from '../components/common/text';
 import getData, { addPet } from '../actions/pets';
 import { Pet } from '../types';
+import Button from '../components/common/button';
 
 export default function Page() {
   const [pets, setPets] = useState<Pet[]>();
@@ -38,13 +39,11 @@ export default function Page() {
         About
       </Link>
       <div>
-        <button
-          type="button"
+        <Button
+          label="Add Random pet"
           onClick={savePet}
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
-          Add Random Pet
-        </button>
+          primary
+        />
       </div>
       {pets && (
         <div>
@@ -55,7 +54,12 @@ export default function Page() {
           </ul>
         </div>
       )}
-      <Greetings firstName="world" />
+      <Text
+        element="h1"
+        position="center"
+      >
+        Hello, world!
+      </Text>
     </div>
   );
 }
